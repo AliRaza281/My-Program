@@ -1,0 +1,22 @@
+
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: oblique;
+  text-align: center;
+  justify-content: center;
+  
+}
+p {
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  justify-content: space-evenly;
+  line-height: 30px;
+  align-items: center;
+}
+body{
+
+  background: linear-gradient(rgb(238, 164, 164),
+   rgb(247, 228, 255),rgb(253, 191, 191), rgb(214, 189, 224)); 
+}

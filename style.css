@@ -1,0 +1,260 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+/* 888888888888888888888888888888888888888888          NAVBAR            8888888888888888888888*/
+header nav {
+  background-color: rgb(250, 220, 217);
+  position: fixed;
+
+  width: 100%;
+  z-index: 4;
+  display: flex;
+  color: rgb(206, 138, 49);
+  justify-content: center;
+  align-items: center;
+  
+}
+#logo img {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -130%;
+  margin-right: 10px;
+}
+header nav ul li a {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(66, 56, 42);
+}
+header nav ul li {
+  list-style: none;
+  float: left;
+  margin: 23px;
+  text-decoration: none;
+  color: beige;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+header nav ul li a:hover {
+  /* list-style: none; */
+  padding: 12px;
+  border-radius: 13px;
+  background-color: rgb(188, 180, 143);
+  /* text-decoration: none; */
+  color: rgb(255, 0, 43);
+  background: linear-gradient(rgb(238, 153, 168),rgb(230, 197, 197), rgb(146, 112, 161));
+}
+
+/* ***************************************** Services  Page************************** */
+
+.text {
+  background: rgb(243, 205, 205);
+  margin-left: 43px;
+  margin-right: 43px;
+  /* color: aliceblue; */
+  position: sticky;
+  /* border: 4px black solid; */
+  margin-top: -30px;
+}
+.text h1 {
+  /* color: aliceblue; */
+  font-family: "Smokum";
+  font-style: oblique;
+  text-align: center;
+  justify-content: center;
+  /* color: rgb(0, 0, 0); */
+}
+
+.section_services img {
+  opacity: 62%;
+}
+.section_services {
+  background-color: rgb(250, 220, 217);
+  
+}
+.services_button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+  background-color: rgb(250, 184, 178);
+  font-size: 24px;
+  font-family: "Courier New", Courier, monospace;
+  font-style: oblique;
+  align-items: center;
+  width: calc(50% /2 - 120px );
+
+}
+.section_services button {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: space-; */
+  color: red;
+  background-color: rgb(250, 184, 178);
+  font-size: 24px;
+  font-family: "Courier New", Courier, monospace;
+  font-style: oblique;
+  align-items: center;
+  width: calc(50% /2 - 120px );
+  margin-top: 27px;
+  margin-bottom: 7px;
+  margin-left: 40%;
+  margin-right: 40%; 
+   padding: 10px;
+  border-radius: 126px;
+  border-color: rgb(250, 184, 178);
+}
+.section_services button {
+  margin-bottom: 32px;
+}
+.section_services a {
+  list-style: none;
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+  padding: 10px;
+}
+.section_services button :hover {
+  font-size: 24px;
+  /* padding-; */
+  font-weight: bolder;
+  color: rgb(255, 0, 0);
+  
+  background: linear-gradient(rgb(238, 153, 168),rgb(230, 197, 197), rgb(146, 112, 161));
+  /* background-color: rgb(255, 194, 189); */
+  border-radius: 120px;
+}
+
+/*****************************************Card Sections******************************************/
+
+.Card_section {
+  margin-top: 23px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 98%;
+  /* border: 2px red solid; */
+  /* width: 100%; */
+}
+.card1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+  margin: 13px;
+  width: 20%;
+  
+  background: linear-gradient(rgb(238, 153, 168),rgb(230, 197, 197), rgb(165, 136, 177));
+  border: 1px black solid;
+  flex-wrap: wrap;
+}
+.card1 img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 25vw;
+  height: 25vh;
+}
+
+.card1 button {
+  margin-top: 25px;
+  /* font-style: oblique; */
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 26px;
+  border-color: rgb(250, 184, 178);
+}
+.card1 button a {
+  border-radius: 26px;
+  padding: 0px;
+  text-decoration: none;
+  color: red;
+  /* background-color: rgb(255, 255, 255); */
+  font-size: 24px;
+  font-family: "Courier New", Courier, monospace;
+}
+.card1 button :hover {
+  color: red;
+  background-color: rgb(163, 74, 74);
+  font-size: 28px;
+  font-family: "Courier New", Courier, monospace;
+}
+.card1 h1 {
+  margin-top: 18px;
+}
+
+/* *************************************** Contact Sections************************* */
+.mybackground {
+  opacity: 40%;
+}
+#aboutus {
+  background-color: rgb(255, 194, 189);
+  margin-top: 23px;
+}
+#aboutus {
+  background-color: rgb(255, 194, 189);
+  margin-top: 23px;
+}
+#aboutus .about_containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#aboutus .about_containers .container_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* border: 1px rgb(0, 0, 0) solid; */
+  margin: 0px;
+  width: 60%;
+  height: 400px;
+}
+#aboutus .about_containers .container_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* border: 2px rgb(22, 22, 22) solid; */
+  width: 30%;
+  height: 400px;
+}
+#aboutus .about_containers .icon img {
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* width: 100%; */
+  color: white;
+  height: 60px;
+  background-color: black;
+}
+
+/* **************************Form CSS************************************* */
+
+
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&     Form style ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* header{
+  position: fixed;
+} */
+
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@     Medias Quries     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+@media (max-width: 860px) {
+  
+  header nav{
+    flex-direction: column;
+    /* display: n; */
+  }
+}
+
+
